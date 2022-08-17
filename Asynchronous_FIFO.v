@@ -1,5 +1,5 @@
 //NAME- TAUQEER AHMAD, 213070093
-module Asy_Fifo(Wr_clk,Rd_clk,reset,Data_in,Data_out,Rd_Empty,Wr_Full);
+module Asy_FIFO(Wr_clk,Rd_clk,reset,Data_in,Data_out,Rd_Empty,Wr_Full);
 parameter Depth = 16;
 parameter Width = 4;
 input Wr_clk,Rd_clk,reset;
